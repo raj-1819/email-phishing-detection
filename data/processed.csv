@@ -1,0 +1,6 @@
+text,label,text_clean,urls,url_count,avg_url_len,has_ip,subdomain_depth,suspicious_tld
+"Dear user, your account will be suspended. Click http://fake-login.example.com to verify",phishing,"dear user, your account will be suspended. click http://fake-login.example.com to verify",['http://fake-login.example.com'],1.0,29.0,0.0,1.0,0.0
+Team update: the meeting is moved to 3pm today. See calendar invite.,legit,team update: the meeting is moved to 3pm today. see calendar invite.,[],0.0,0.0,0.0,0.0,0.0
+Your invoice attached. Download from http://malicious.example/download,phishing,your invoice attached. download from http://malicious.example/download,['http://malicious.example/download'],1.0,33.0,0.0,1.0,0.0
+"Hello Raj, can you share the quarterly report? Thanks.",legit,"hello raj, can you share the quarterly report? thanks.",[],0.0,0.0,0.0,0.0,0.0
+Important: confirm your payment details at https://secure-pay.example.verify-account.com,phishing,important: confirm your payment details at https://secure-pay.example.verify-account.com,['https://secure-pay.example.verify-account.com'],1.0,45.0,0.0,2.0,0.0

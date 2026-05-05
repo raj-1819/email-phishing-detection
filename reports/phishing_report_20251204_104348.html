@@ -1,0 +1,136 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Phishing Detection Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+            .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+            .header { background: #d32f2f; color: white; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+            .header h1 { margin: 0; font-size: 28px; }
+            .alert { background: #ffebee; border-left: 4px solid #d32f2f; padding: 15px; margin: 20px 0; }
+            .section { margin: 20px 0; padding: 15px; background: #fafafa; border-radius: 5px; }
+            .section h2 { color: #d32f2f; margin-top: 0; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; }
+            .info-row { display: flex; margin: 10px 0; }
+            .info-label { font-weight: bold; width: 200px; color: #555; }
+            .info-value { color: #333; flex: 1; word-break: break-all; }
+            .risk-bar { width: 100%; height: 30px; background: #e0e0e0; border-radius: 15px; overflow: hidden; }
+            .risk-fill { height: 100%; background: linear-gradient(to right, #ff5252, #d32f2f); text-align: center; line-height: 30px; color: white; font-weight: bold; }
+            .url-list { background: white; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+            .url-item { padding: 5px; border-bottom: 1px solid #eee; font-family: monospace; font-size: 12px; }
+            .btn { display: inline-block; padding: 10px 20px; background: #d32f2f; color: white; text-decoration: none; border-radius: 5px; margin: 5px; }
+            .timestamp { color: #888; font-size: 14px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🚨 PHISHING DETECTION REPORT</h1>
+                <div class="timestamp">Generated: 2025-12-04 10:43:48</div>
+            </div>
+            
+            <div class="alert">
+                <strong>⚠️ THREAT DETECTED</strong><br>
+                This email has been identified as a potential phishing attempt. DO NOT interact with links or attachments.
+            </div>
+            
+            <div class="section">
+                <h2>📊 Risk Assessment</h2>
+                <div class="risk-bar">
+                    <div class="risk-fill" style="width: 70%;">
+                        RISK: 70%
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📧 Email Details</h2>
+                <div class="info-row">
+                    <div class="info-label">From:</div>
+                    <div class="info-value">LinkedIn <messages-noreply@linkedin.com></div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Subject:</div>
+                    <div class="info-value">Vishal Patil is someone you may know</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Folder:</div>
+                    <div class="info-value">INBOX</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Detection Time:</div>
+                    <div class="info-value">2025-12-04 10:43:48</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🌍 Geolocation Analysis</h2>
+                <div class="info-row">
+                    <div class="info-label">Sender IP:</div>
+                    <div class="info-value">108.174.3.193</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Country:</div>
+                    <div class="info-value">United States</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">City:</div>
+                    <div class="info-value">Ashburn</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">ISP:</div>
+                    <div class="info-value">LinkedIn Corporation</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Organization:</div>
+                    <div class="info-value">LinkedIn Corporation</div>
+                </div>
+                <a href="https://www.google.com/maps?q=39.0438,-77.4874" target="_blank" class="btn">📍 View on Map</a>
+            </div>
+            
+            <div class="section">
+                <h2>🔗 Extracted URLs (5)</h2>
+                <div class="url-list">
+                    <div class="url-item">• https://www.linkedin.com/comm/mynetwork/send-invite/vishal-patil-37465b206/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A879495496-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A879495496&_sig=0ZXdz84d1nms01</div><br><div class="url-item">• https://www.linkedin.com/comm/mynetwork/send-invite/harshavardhani18/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A905706683-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A905706683&_sig=03iljVEn9nms019</div><br><div class="url-item">• https://www.linkedin.com/comm/mynetwork/send-invite/harshini-kankanala-903b461b9/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A853837203-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A853837203&_sig=3tOo_jCzBnms015</div><br><div class="url-item">• https://www.linkedin.com/comm/mynetwork/send-invite/anucharitha-chilam-9381b8215/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A911217212-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A911217212&_sig=0cCwRZB49nms012</div><br><div class="url-item">• https://www.linkedin.com/comm/mynetwork/send-invite/robert-j-a665701/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A4376814-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A4376814&_sig=3CgwHYDylnms013</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📝 Email Body Preview</h2>
+                <div style="background: white; padding: 15px; border: 1px solid #ddd; border-radius: 5px; max-height: 300px; overflow-y: auto; font-family: monospace; font-size: 12px; white-space: pre-wrap;">
+Do you know Vishal Patil?2 mutual connections
+
+Yes, connect: https://www.linkedin.com/comm/mynetwork/send-invite/vishal-patil-37465b206/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A879495496-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A879495496&_sig=0ZXdz84d1nms01
+
+
+More people you may know
+            
+    Gorijavolu Harshavardhani
+Dedicated Java Full Stack Developer | Front-End & Back-End | Seeking Growth Opportunities
+https://www.linkedin.com/comm/mynetwork/send-invite/harshavardhani18/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A905706683-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A905706683&_sig=03iljVEn9nms019 mutual connections
+            
+    Harshini Kankanala
+Custom Software Engineering Analyst
+https://www.linkedin.com/comm/mynetwork/send-invite/harshini-kankanala-903b461b9/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A853837203-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A853837203&_sig=3tOo_jCzBnms015 mutual connections
+            
+    Anucharitha Chilam
+IT Support Engineer at Nations Benefits 
+https://www.linkedin.com/comm/mynetwork/send-invite/anucharitha-chilam-9381b8215/?lipi=urn%3Ali%3Apage%3Aemail_email_pymk_02%3BM5MPS5bNRaWjxKzgFneHew%3D%3D&midSig=1989a6Z1pnms01&midToken=AQHvlW4Ut2alsw&trkEmail=eml-email_pymk_02-pymkCard-0-pymk_cta%3A+urn%3Ali%3Amember%3A911217212-null-fu3txx%7Emhwgao0a%7Eq9-null-null&trk=eml-email_pymk_02-pymk
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🛡️ Recommended Actions</h2>
+                <ul>
+                    <li>Do NOT click any links in this email</li>
+                    <li>Do NOT download any attachments</li>
+                    <li>Do NOT reply to this email</li>
+                    <li>Mark as spam/phishing in your email client</li>
+                    <li>Report to your IT security team</li>
+                    <li>Delete the email permanently</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    </html>
+    

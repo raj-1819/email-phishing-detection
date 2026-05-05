@@ -1,0 +1,134 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Phishing Detection Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+            .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+            .header { background: #d32f2f; color: white; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+            .header h1 { margin: 0; font-size: 28px; }
+            .alert { background: #ffebee; border-left: 4px solid #d32f2f; padding: 15px; margin: 20px 0; }
+            .section { margin: 20px 0; padding: 15px; background: #fafafa; border-radius: 5px; }
+            .section h2 { color: #d32f2f; margin-top: 0; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; }
+            .info-row { display: flex; margin: 10px 0; }
+            .info-label { font-weight: bold; width: 200px; color: #555; }
+            .info-value { color: #333; flex: 1; word-break: break-all; }
+            .risk-bar { width: 100%; height: 30px; background: #e0e0e0; border-radius: 15px; overflow: hidden; }
+            .risk-fill { height: 100%; background: linear-gradient(to right, #ff5252, #d32f2f); text-align: center; line-height: 30px; color: white; font-weight: bold; }
+            .url-list { background: white; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+            .url-item { padding: 5px; border-bottom: 1px solid #eee; font-family: monospace; font-size: 12px; }
+            .btn { display: inline-block; padding: 10px 20px; background: #d32f2f; color: white; text-decoration: none; border-radius: 5px; margin: 5px; }
+            .timestamp { color: #888; font-size: 14px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🚨 PHISHING DETECTION REPORT</h1>
+                <div class="timestamp">Generated: 2025-12-04 10:43:28</div>
+            </div>
+            
+            <div class="alert">
+                <strong>⚠️ THREAT DETECTED</strong><br>
+                This email has been identified as a potential phishing attempt. DO NOT interact with links or attachments.
+            </div>
+            
+            <div class="section">
+                <h2>📊 Risk Assessment</h2>
+                <div class="risk-bar">
+                    <div class="risk-fill" style="width: 70%;">
+                        RISK: 70%
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📧 Email Details</h2>
+                <div class="info-row">
+                    <div class="info-label">From:</div>
+                    <div class="info-value">Lensa 24 <lensa24@lensa.com></div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Subject:</div>
+                    <div class="info-value">Be the first to apply to Military Intelligence Officer at
+ =?UTF-8?B?VeKApFPigKQ=?= Navy</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Folder:</div>
+                    <div class="info-value">INBOX</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Detection Time:</div>
+                    <div class="info-value">2025-12-04 10:43:28</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🌍 Geolocation Analysis</h2>
+                <div class="info-row">
+                    <div class="info-label">Sender IP:</div>
+                    <div class="info-value">159.183.122.44</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Country:</div>
+                    <div class="info-value">United States</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">City:</div>
+                    <div class="info-value">San Francisco</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">ISP:</div>
+                    <div class="info-value">SendGrid, Inc.</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Organization:</div>
+                    <div class="info-value">Twilio SendGrid</div>
+                </div>
+                <a href="https://www.google.com/maps?q=37.7879,-122.392" target="_blank" class="btn">📍 View on Map</a>
+            </div>
+            
+            <div class="section">
+                <h2>🔗 Extracted URLs (5)</h2>
+                <div class="url-list">
+                    <div class="url-item">• https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMa56ggCq9dPD1wo0AdR-2B590jY4d7YS0rT93kA-2Feksa7Qk-2BAkDATGumibs-2FMB8FdBZQ-3D-3Dteow_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBrFZoDM-2BHfjagi3U4tFLZ-2FTNRgO1pAAYsrzCWVVzPkiL1uDKT-2FQOIqlCEZ-2FrSwPjU0Rby7jBHBEaf-2F3qMzLW71OEmZVs0V0W7h5DkkoAhwrzEdMxXBImfr6m4PG5IYVHn3pNBFz5wf8GG-2B67Cdhjfh61Xz4Roo5PAxrED5DAafJKydSfwti9kAWbQdAhagiyuPSInpDdTLVUn1oF-2FOCtKfV</div><br><div class="url-item">• https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMeQOYUh3i-2BrlYV1yx8Ap1WI0d0Yg7Zi-2Bp34zJNEwz5OfiVZXB13Gq2-2FiwPUfI02jgg-3D-3DW6lP_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBpzs07bdK-2F-2BNgOfi-2BGiq3u6rDQLhanOyu3NebicjT2TxRnFNWPndYzqeelhmV2ZqvYTX-2BCrG5-2BMuv5eOB77d3kxVR7taDh-2FVNDJD3pj58M-2F-2B4yEd0YbxnpUjZOy7-2B-2F-2BsNZeD0hWJYYzLs-2B1i6xsysm7R5CdEC1UWtku0t1vp6IGtziprtp9tgG56CVr0eHZAAxxIqXJCrXRfGKPaOi11sO1</div><br><div class="url-item">• https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMSJhWjQ9Ut3w7KuDbDPL6kdh-2BHRsVBgSIQg9JIHxetNJudmffaUGhSY-2FpUkfR9US26r4N8-2BfT33zxTxYOXuAywa3Vnmhni-2B7B-2BKFxIlhJ6bV7etcY1fO2Ydy7UmRIdTTfAjJEs4y-2FoG4KiAS8WOxyxGbkJDM23pLU6PnP5cqwarjHXXK8QYzfxXVkRGXuOrfGoLD3X-2FuLDQ5sQfkSFPlHVE-3DpMJa_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBq4rt9IK-2Bgd9fRquUKOMXEV5czYMtulS1HrsurcmyWXHVTsbUZtsR5-2FfAL9ObdXdXrU8eZ-2FeAyzk1jRB4wMzn1XjowsgfjwCc2YDzb1aML1xDBQoUz0dazAowMzZSxpWQ8S-2BKhDt3KWz3szQgHvU-2BFrsxExVCHHOOUKSRZDNAi4JkIHS3ENI-2Bp4l2HDEQLd0jsy11FUcI4aCWkhqegiubaO</div><br><div class="url-item">• https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMeQOYUh3i-2BrlYV1yx8Ap1WJhH-2Bg6oB26AioJMgqvkHkm-2BbAeeKsclI8xF2RN9ce5bA-3D-3DB9GO_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBreC-2Bo4Mbqp96EhfpzGjE8I35UPrrfJV-2FQSyQPTZEXcQgdSMVFTQFH6f-2B2xpmQzkOoYY0qPvxJrAe1yaUcTAZ1gT9WEZRC37UgDRgC7p1oX3B-2FlGsTsyX5oLcdELu-2FGYkBp1bTjk1WP7iJyhl6rSa1AstG52MSFJdB5rd-2Bz5a8VomvaRuoibwpb6NMmCi6CED9UQXDpN1J1DkmRb5iMiGkL</div><br><div class="url-item">• https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMeQOYUh3i-2BrlYV1yx8Ap1WI0d0Yg7Zi-2Bp34zJNEwz5OfiVZXB13Gq2-2FiwPUfI02jgg-3D-3D0984_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBrYG0ezKdmgpMxKsP3porjasXkdOaE8H7Vc8imGH-2B8P0IlFVyEb3Xoa3Aw4KO12xEI9ctjjS-2BIygRSbFV-2FLQKc7kBqxlOpa1Em80B6gYiy87ruFxvIyWqBRKni04nAR3YgmLee1L-2Btv2AwfVQpklxa-2BMzgVihkZm0p4VUv7OxptOOeGyrCnEoH687wxOGLt8dy2N8pJvidulzxFVVaqVY96</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📝 Email Body Preview</h2>
+                <div style="background: white; padding: 15px; border: 1px solid #ddd; border-radius: 5px; max-height: 300px; overflow-y: auto; font-family: monospace; font-size: 12px; white-space: pre-wrap;">
+Cyber security - intern within 25 miles of Hamden, CT — [edit
+settings](https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMa56ggCq9dPD1wo0AdR-2B590jY4d7YS0rT93kA-2Feksa7Qk-2BAkDATGumibs-2FMB8FdBZQ-3D-3Dteow_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBrFZoDM-2BHfjagi3U4tFLZ-2FTNRgO1pAAYsrzCWVVzPkiL1uDKT-2FQOIqlCEZ-2FrSwPjU0Rby7jBHBEaf-2F3qMzLW71OEmZVs0V0W7h5DkkoAhwrzEdMxXBImfr6m4PG5IYVHn3pNBFz5wf8GG-2B67Cdhjfh61Xz4Roo5PAxrED5DAafJKydSfwti9kAWbQdAhagiyuPSInpDdTLVUn1oF-2FOCtKfV
+preferences/?tok=e2ca7c10-a46b-4179-94bc-e8395fea0044&utm_source=lensa24&utm_campaign=update_profile_header&utm_medium=email)  
+  
+---  
+  
+Jobs posted within the last 24 hours
+
+|  
+|  |  ![LE](https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMeQOYUh3i-2BrlYV1yx8Ap1WI0d0Yg7Zi-2Bp34zJNEwz5OfiVZXB13Gq2-2FiwPUfI02jgg-3D-3DW6lP_RCEUxWBNQIJnVpNls-2By5lEEddPYVzg02EJYZ99AVATziFFMR1Cx7awcWYhqGs8elT3pGGh05xkePsFCMdz-2F-2BCOx4SK8HTAlGccIiG9ZUBegEXdBcrFZIHuWnyMvcl0yapTyr1PYP6is1ar3Z42N16weP3AKfOdCTwULKGKHYEPzhbIOElw8URqBtU-2B0HC4o-2BlCCPPNPntPDCoG-2BOK3-2FopCrihTLa61G4l8mxgSJY4S5vc4pvVE3iMS8tktg7-2Bc-2B4OerneXY1qwfCk8yyOJPW95esx1QXM2RQBaGeTHsofTNUUCOIdmo742xLjkT0soT43PAsuXsCMteGEhX-2BccgOffzdoaEnUSepdPFe3G4cBBpzs07bdK-2F-2BNgOfi-2BGiq3u6rDQLhanOyu3NebicjT2TxRnFNWPndYzqeelhmV2ZqvYTX-2BCrG5-2BMuv5eOB77d3kxVR7taDh-2FVNDJD3pj58M-2F-2B4yEd0YbxnpUjZOy7-2B-2F-2BsNZeD0hWJYYzLs-2B1i6xsysm7R5CdEC1UWtku0t1vp6IGtziprtp9tgG56CVr0eHZAAxxIqXJCrXRfGKPaOi11sO1
+logo.webp) | U․S․ Navy  
+---|---  
+3.5  |  ★★★☆☆  
+[Military Intelligence
+Officer](https://sg3email.lensa.com/ls/click?upn=u001.-2F0K5UxOWo0al-2F8UCG6e-2FMSJhWjQ9Ut3w7KuDbDPL6kdh
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🛡️ Recommended Actions</h2>
+                <ul>
+                    <li>Do NOT click any links in this email</li>
+                    <li>Do NOT download any attachments</li>
+                    <li>Do NOT reply to this email</li>
+                    <li>Mark as spam/phishing in your email client</li>
+                    <li>Report to your IT security team</li>
+                    <li>Delete the email permanently</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: toastify
+Version: 1.1.5
+Summary: Simple and Lighweight Windows 10 Toast Notifications.
+Home-page: https://github.com/Tanishq-Banyal
+Author: Tanishq-Banyal
+Author-email: banyaltanishq@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Description-Content-Type: text/markdown
+
+This module is very lightweight and only takes about 50kb after installation.
+
+**#+++++++++------EXAMPLE------++++++++++#**
+
+```python
+from toastify import notify
+
+# CALLING WITH ALL PARAMETERS :-
+notify (
+	BodyText='BodyText is Required !',
+	AppName='AppName (Optional)',
+	AppPath='AppPath (Optional)',
+	TitleText='TitleText (Optional)',
+	ImagePath='optional_image_path(jpg/png/bmp/ico)'
+	)
+```
+
+***OR IF YOU ONLY WANT BODY TEXT THEN YOU CAN JUST DO :-***
+```python
+notify('My Body Text')
+```
+
+**#+++++++++-------NOTES-------++++++++++#**
+
+1. NOTIFICATION TIME IS SYSTEM DEAFULT (5sec)
+
+2. The function is blocking by default but you can use threading/asyncio
+
+3. StartMenu Shortcut will be created for your app. (this is a requirement set by microsoft for Toast Notifications)
+
+4. BodyText argument is required !! , rest of the arguments are optional.
+
+5. App Icon Is Set Automatically, it is same as icon of the application that the AppName shortucut in start menu is pointing.
+

@@ -1,0 +1,6 @@
+text,label
+"Dear user, your account will be suspended. Click http://fake-login.example.com to verify",phishing
+Team update: the meeting is moved to 3pm today. See calendar invite.,legit
+Your invoice attached. Download from http://malicious.example/download,phishing
+"Hello Raj, can you share the quarterly report? Thanks.",legit
+Important: confirm your payment details at https://secure-pay.example.verify-account.com,phishing

@@ -1,0 +1,7 @@
+model,accuracy,precision,recall,f1
+random_forest,1.0,1.0,1.0,1.0
+logistic_regression,1.0,1.0,1.0,1.0
+multinomial_nb,1.0,1.0,1.0,1.0
+linear_svc,1.0,1.0,1.0,1.0
+gradient_boost,1.0,1.0,1.0,1.0
+knn,1.0,1.0,1.0,1.0

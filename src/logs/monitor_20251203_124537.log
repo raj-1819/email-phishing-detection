@@ -1,0 +1,15 @@
+2025-12-03 12:45:37,442 [INFO] No config file at C:\Users\Raj Kumar\phishing_project\src\config.json
+2025-12-03 12:45:37,443 [INFO] No IMAP credentials found in config or environment; IMAP monitoring disabled by default.
+2025-12-03 12:45:37,443 [WARNING] ML model not found at C:\Users\Raj Kumar\phishing_project\src\model.joblib — ML detection will be disabled until a model is placed.
+2025-12-03 12:45:37,444 [WARNING] icon_green.ico not found, using generated icon.
+2025-12-03 12:45:37,444 [WARNING] icon_red.ico not found, using generated icon.
+2025-12-03 12:45:37,444 [INFO] Starting monitor (ctrl-C to stop) ...
+2025-12-03 12:45:37,445 [INFO] Starting PhishMonitor.
+2025-12-03 12:45:37,447 [INFO] Starting tray icon.
+2025-12-03 12:45:38,048 [INFO] No IMAP settings provided; IMAP monitor disabled.
+2025-12-03 12:45:38,049 [INFO] Starting folder watcher on C:\Users\Raj Kumar\phishing_project\src\test_eml
+2025-12-03 13:36:03,257 [INFO] Keyboard interrupt received. Exiting.
+2025-12-03 13:36:03,258 [INFO] Stopping all monitors.
+2025-12-03 13:36:03,258 [INFO] Stopping folder watcher.
+2025-12-03 13:36:04,060 [INFO] Tray icon stopped.
+2025-12-03 13:36:04,060 [INFO] Monitor stopped.

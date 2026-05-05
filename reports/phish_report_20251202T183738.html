@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Phishing Detection Report — Urgent Security Notice – Account Verification Required</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{font-family: Arial, Helvetica, sans-serif; line-height:1.45; margin:28px; color:#111; background:#fff}
+  h1{font-size:30px; margin-bottom:6px}
+  h2{font-size:20px; margin-top:18px; margin-bottom:6px}
+  .meta{background:#f6f8fa; padding:12px 14px; border-radius:8px; margin-bottom:12px}
+  .section{margin:18px 0; padding:12px 14px; border-radius:8px; background:#fbfbfb}
+  .label{font-weight:700}
+  .big{font-size:16px}
+  .geo{color:#0a8a36; font-weight:700} /* green for geo headings */
+  pre{background:#f4f6f8; padding:10px; border-radius:6px; overflow:auto}
+  .footer{font-size:12px; color:#666; margin-top:18px}
+</style>
+</head>
+<body>
+  <h1>PHISHING EMAIL — Detection Report</h1>
+  <div class="meta">
+    <div><span class="label">Detected at (local):</span> <span class="big">2025-12-02T18:37:38.459311-05:00</span></div>
+    <div><span class="label">Message date (UTC):</span> <span class="big">2025-12-02T23:32:49+00:00</span></div>
+    <div><span class="label">Probability:</span> <span class="big">0.903</span></div>
+    <div><span class="label">Folder:</span> <span class="big">INBOX</span></div>
+  </div>
+
+  <h2>Sender & Subject</h2>
+  <div class="section">
+    <div><span class="label">From:</span> rajkuar1819@gmail.com</div>
+    <div style="margin-top:6px"><span class="label">Subject:</span> <strong>Urgent Security Notice – Account Verification Required</strong></div>
+    <div style="margin-top:6px"><span class="label">Message ID:</span> <CAHn6fqy7M9rsu+TFpmVik1+XZXwUJtBfL5M5Yai+c9Ha3NkVgg@mail.gmail.com></div>
+  </div>
+
+  <h2>URLs & Indicators</h2>
+  <div class="section">
+    <div><span class="label">First URL:</span> https://secure-verify-login-account.com/authenticate</div>
+    <div style="margin-top:6px"><span class="label">Matched Keywords:</span> —</div>
+  </div>
+
+  <h2 class="geo">Origin & Geolocation</h2>
+  <div class="section">
+    <div><span class="label">Origin IP:</span> 209.85.220.41</div>
+    <div style="margin-top:6px"><span class="label">Country:</span> United States</div>
+    <div style="margin-top:6px"><span class="label">Region:</span> California</div>
+    <div style="margin-top:6px"><span class="label">City:</span> Mountain View</div>
+    <div style="margin-top:6px"><span class="label">Postal:</span> 94035</div>
+    <div style="margin-top:6px"><span class="label">ISP:</span> Google LLC</div>
+    <div style="margin-top:6px"><span class="label">Org:</span> Google LLC</div>
+  </div>
+
+  <h2>Full JSON (saved)</h2>
+  <div class="section"><pre>{
+  "detected_at_utc": "2025-12-02T18:37:38.459311-05:00",
+  "message_date_utc": "2025-12-02T23:32:49+00:00",
+  "reaction_seconds": "0.000",
+  "message_id": "<CAHn6fqy7M9rsu+TFpmVik1+XZXwUJtBfL5M5Yai+c9Ha3NkVgg@mail.gmail.com>",
+  "from": "rajkuar1819@gmail.com",
+  "subject": "Urgent Security Notice \u2013 Account Verification Required",
+  "folder": "INBOX",
+  "label": "PHISHING",
+  "probability": "0.903",
+  "matched_keywords": "",
+  "first_url": "https://secure-verify-login-account.com/authenticate",
+  "origin_ip": "209.85.220.41",
+  "origin_country": "United States",
+  "origin_region": "California",
+  "origin_city": "Mountain View",
+  "origin_postal": "94035",
+  "origin_isp": "Google LLC",
+  "origin_org": "Google LLC"
+}</pre></div>
+
+  <div class="footer">Phishing Detection — Random Forest + TF-IDF (MODEL-ONLY, threshold 0.85)</div>
+</body>
+</html>

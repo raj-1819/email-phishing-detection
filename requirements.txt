@@ -1,0 +1,14 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+joblib
+imapclient
+pyzmail36
+python-dotenv
+configparser
+email-validator
+colorama
+requests
+python-dateutil

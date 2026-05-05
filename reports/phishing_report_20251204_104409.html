@@ -1,0 +1,132 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Phishing Detection Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+            .container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+            .header { background: #d32f2f; color: white; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+            .header h1 { margin: 0; font-size: 28px; }
+            .alert { background: #ffebee; border-left: 4px solid #d32f2f; padding: 15px; margin: 20px 0; }
+            .section { margin: 20px 0; padding: 15px; background: #fafafa; border-radius: 5px; }
+            .section h2 { color: #d32f2f; margin-top: 0; border-bottom: 2px solid #d32f2f; padding-bottom: 10px; }
+            .info-row { display: flex; margin: 10px 0; }
+            .info-label { font-weight: bold; width: 200px; color: #555; }
+            .info-value { color: #333; flex: 1; word-break: break-all; }
+            .risk-bar { width: 100%; height: 30px; background: #e0e0e0; border-radius: 15px; overflow: hidden; }
+            .risk-fill { height: 100%; background: linear-gradient(to right, #ff5252, #d32f2f); text-align: center; line-height: 30px; color: white; font-weight: bold; }
+            .url-list { background: white; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+            .url-item { padding: 5px; border-bottom: 1px solid #eee; font-family: monospace; font-size: 12px; }
+            .btn { display: inline-block; padding: 10px 20px; background: #d32f2f; color: white; text-decoration: none; border-radius: 5px; margin: 5px; }
+            .timestamp { color: #888; font-size: 14px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🚨 PHISHING DETECTION REPORT</h1>
+                <div class="timestamp">Generated: 2025-12-04 10:44:09</div>
+            </div>
+            
+            <div class="alert">
+                <strong>⚠️ THREAT DETECTED</strong><br>
+                This email has been identified as a potential phishing attempt. DO NOT interact with links or attachments.
+            </div>
+            
+            <div class="section">
+                <h2>📊 Risk Assessment</h2>
+                <div class="risk-bar">
+                    <div class="risk-fill" style="width: 70%;">
+                        RISK: 70%
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📧 Email Details</h2>
+                <div class="info-row">
+                    <div class="info-label">From:</div>
+                    <div class="info-value">Robert Half via LinkedIn <newsletters-noreply@linkedin.com></div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Subject:</div>
+                    <div class="info-value">Market Moves: November 2025</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Folder:</div>
+                    <div class="info-value">INBOX</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Detection Time:</div>
+                    <div class="info-value">2025-12-04 10:44:09</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🌍 Geolocation Analysis</h2>
+                <div class="info-row">
+                    <div class="info-label">Sender IP:</div>
+                    <div class="info-value">108.174.0.198</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Country:</div>
+                    <div class="info-value">Unknown</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">City:</div>
+                    <div class="info-value">Unknown</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">ISP:</div>
+                    <div class="info-value">Unknown</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Organization:</div>
+                    <div class="info-value">Unknown</div>
+                </div>
+                
+            </div>
+            
+            <div class="section">
+                <h2>🔗 Extracted URLs (5)</h2>
+                <div class="url-list">
+                    <div class="url-item">• https://www.linkedin.com/comm/pulse/november-2025-robert-half-international-iy8dc?lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdlgHwqikQGmjTTE4ukIWtg%3D%3D&midToken=AQHvlW4Ut2alsw&midSig=3WkQiZjDT7tc01&trk=eml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_&trkEmail=eml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_-null-fu3txx</div><br><div class="url-item">• https://www.linkedin.com/comm/pulse/november-2025-robert-half-international-iy8dc?lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdlgHwqikQGmjTTE4ukIWtg%3D%3D&midToken=AQHvlW4Ut2alsw&midSig=3WkQiZjDT7tc01&trk=eml-email_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_button_&trkEmail=eml-email_series_follow_newsletter_01-newsletter_content_preview_text-0-readmore_button_-null-fu3txx</div><br><div class="url-item">• https://www.linkedin.com/help/linkedin/answer/4788?lang=en&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdlgHwqikQGmjTTE4ukIWtg%3D%3D&midToken=AQHvlW4Ut2alsw&midSig=3WkQiZjDT7tc01&trk=eml-email_series_follow_newsletter_01-SecurityHelp-0-textfooterglimmer&trkEmail=eml-email_series_follow_newsletter_01-SecurityHelp-0-textfooterglimmer-null-fu3txx</div><br><div class="url-item">• https://www.linkedin.com/series-notifications/?action=unsubscribe&memberToken=ADoAADkTNFUBf8rLoDzq9a545Wt6ZhOTPoAuLAA&newsletterId=7271949224072650752&newsletterTitle=Market</div><br><div class="url-item">• https://www.linkedin.com/help/linkedin/answer/67?lang=en&lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdlgHwqikQGmjTTE4ukIWtg%3D%3D&midToken=AQHvlW4Ut2alsw&midSig=3WkQiZjDT7tc01&trk=eml-email_series_follow_newsletter_01-help-0-textfooterglimmer&trkEmail=eml-email_series_follow_newsletter_01-help-0-textfooterglimmer-null-fu3txx</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📝 Email Body Preview</h2>
+                <div style="background: white; padding: 15px; border: 1px solid #ddd; border-radius: 5px; max-height: 300px; overflow-y: auto; font-family: monospace; font-size: 12px; white-space: pre-wrap;">
+Market Moves
+
+By Robert Half
+
+
+By Robert Half
+
+    
+    
+    Read this article on LinkedIn to join the conversation
+Read on LinkedIn
+https://www.linkedin.com/comm/pulse/november-2025-robert-half-international-iy8dc?lipi=urn%3Ali%3Apage%3Aemail_email_series_follow_newsletter_01%3BdlgHwqikQGmjTTE4ukIWtg%3D%3D&midToken=AQHvlW4Ut2alsw&midSig=3WkQiZjDT7tc01&trk=eml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_&trkEmail=eml-email_series_follow_newsletter_01-null-0-read_more_banner_cta_-null-fu3txx~mi3flo1y~gq-null-null&eid=fu3txx-mi3flo1y-gq&otpToken=MWIwMDE5ZTUxNzI3YzFjZGI3MjQwNGVkNDAxZGUzYjQ4ZWNhZDI0MzllYWE4ZDYxNzBjNzA4Njg0YzU5NTlmNmY0ZDBkMGU5MWJjM2IwZmE1ZDg1ZWY4YjA3OTAxODE2YTM0ZjVkYTRmMTBhYTU5ODRjMWMyM2M4LDEsMQ%3D%3D
+  
+Did AI squash the labor market’s vibe? 😡 As the year winds down, 170 million people in the U.S. workforce are wishing they could ask the 2025 labor market one question: Why are you being like this?   The easy response to this (and seemingly every other question lately) is “AI, baby!” And while we agree that AI will reshape the world of work in many ways, what we’ve seen over the past 11 months isn’t as simple as “AI took all the jobs.” Allow us a little myth-busting: - There’s no evidence of “discernible disruption” to jobs since the release of ChatGPT in 2022, according to a report from Yale’s Budget Lab. Many of today’s workforce trends were already in motion long before the so-called “AI-pocalypse”. Even transformational tech like the internet took decades to truly change how people work. - Large organizations are investing heavily in generative AI, but few are seeing meaningful ROI yet. Smaller businesses? Many aren’t ready to commit to tools whose benefits are still unproven. - Soft skills remain in high demand, as do specialized roles AI can’t easily replicate (yes, including those who know how to fix AI 😬).    So if AI isn’t outright replacing employees, what’s behind the headlines about layoffs and “AI-driven” restr
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🛡️ Recommended Actions</h2>
+                <ul>
+                    <li>Do NOT click any links in this email</li>
+                    <li>Do NOT download any attachments</li>
+                    <li>Do NOT reply to this email</li>
+                    <li>Mark as spam/phishing in your email client</li>
+                    <li>Report to your IT security team</li>
+                    <li>Delete the email permanently</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+    </html>
+    

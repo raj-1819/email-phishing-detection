@@ -1,0 +1,157 @@
+
+<html>
+<head>
+<title>Phishing Detection Model Comparison</title>
+<style>
+body { font-family: Arial; background: #f7f7f7; padding: 20px; }
+h1 { color: #333; }
+.model-card { background: #fff; padding: 15px; border-radius: 10px; margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+.model-title { font-size: 18px; font-weight: bold; color: green; }
+.metrics { margin-left: 20px; margin-top: 5px; }
+.class-dist { display: flex; justify-content: space-around; margin-top: 20px; font-size:16px; }
+.legit { color: green; font-weight: bold; }
+.phish { color: red; font-weight: bold; }
+.cm-img { margin-top: 10px; }
+</style>
+</head>
+<body>
+<h1>Phishing Detection Model Comparison</h1>
+<div class="class-dist">
+<div class="legit">Legit: 4000</div>
+<div class="phish">Phishing: 6000</div>
+</div>
+<hr>
+
+<div class="model-card">
+<div class="model-title">✅ Random Forest</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_Random Forest.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+
+<div class="model-card">
+<div class="model-title">✅ Logistic Regression</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_Logistic Regression.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+
+<div class="model-card">
+<div class="model-title">✅ Multinomial NB</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_Multinomial NB.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+
+<div class="model-card">
+<div class="model-title">✅ Linear SVC</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_Linear SVC.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+
+<div class="model-card">
+<div class="model-title">✅ Gradient Boost</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_Gradient Boost.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+
+<div class="model-card">
+<div class="model-title">✅ KNN</div>
+<div class="metrics">
+Accuracy: 1.0000<br>
+Precision: 1.0000<br>
+Recall: 1.0000<br>
+F1 Score: 1.0000
+</div>
+<div class="cm-img">
+<img src="cmatrix_KNN.png" width="400">
+<pre>              precision    recall  f1-score   support
+
+       Legit       1.00      1.00      1.00       800
+       Phish       1.00      1.00      1.00      1200
+
+    accuracy                           1.00      2000
+   macro avg       1.00      1.00      1.00      2000
+weighted avg       1.00      1.00      1.00      2000
+</pre>
+</div>
+</div>
+</body></html>
